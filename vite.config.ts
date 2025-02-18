@@ -48,7 +48,7 @@ export default defineConfig((mode: ConfigEnv):UserConfig=>{
       }
     },
     build: {
-      outDir: 'docs',
+      outDir: 'dist',
       // minify: 'terser',
       // terserOptions: {
       //   compress: {
@@ -64,6 +64,7 @@ export default defineConfig((mode: ConfigEnv):UserConfig=>{
           assetFileNames: 'static/[ext]/[name]-[hash].[ext]',
         }
       }
-    }
+    },
+    base: '/vite-ts-road/',
   }
 })
