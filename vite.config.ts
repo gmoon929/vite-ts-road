@@ -48,7 +48,7 @@ export default defineConfig((mode: ConfigEnv):UserConfig=>{
       }
     },
     build: {
-      outDir: 'dist',
+      outDir: 'docs',
       // minify: 'terser',
       // terserOptions: {
       //   compress: {
