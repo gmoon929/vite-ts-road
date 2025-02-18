@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 import Router from "@/routers";
 import { ConfigProvider } from "antd";
 import { defaultTheme } from '@/style/theme'
@@ -17,9 +17,9 @@ function App() {
           },
         }}
       >
-        <BrowserRouter>
+        <HashRouter>
           <Router />
-        </BrowserRouter>
+        </HashRouter>
       </ConfigProvider>
     </>
   );
