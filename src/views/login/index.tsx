@@ -6,7 +6,7 @@ import { UserOutlined, LockOutlined, WechatOutlined, AlipayCircleOutlined, Weibo
 import { login } from '@/api/login'
 import logo from '@/assets/img/login/logo.png';
 import logoText from '@/assets/img/login/logo-text.png'
-const LogForm: React.FC = (props) => {
+const LogForm: React.FC = () => {
   const [loginType, setLoginType] = useState('1')
   const SelectLoginType: any = (type: string) =>{ 
     setLoginType(type)

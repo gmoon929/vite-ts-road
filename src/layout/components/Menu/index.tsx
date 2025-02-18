@@ -1,20 +1,20 @@
-import { Breadcrumb, Layout, Menu, Spin, theme } from "antd";
+import { Breadcrumb, Layout, Menu, theme } from "antd";
 import { useEffect, useState } from "react";
 import { queryMenuData } from "@/api/layout";
 import { useNavigate } from "react-router-dom";
 const { Header, Content, Sider } = Layout;
 const LayoutMenu = (props: any) => {
   // 面包屑数据
-  const [crumbsList, setCrumbsList] = useState([]);
+  // const [crumbsList, setCrumbsList] = useState([]);
   // 菜单数据
   const [menuList, setMenuList] = useState([]);
   // loading
-  const [loading, setLoading] = useState(false);
+  // const [loading, setLoading] = useState(false);
   // 获取菜单数据
   const getMenuData = async () => {
-    setLoading(true);
+    // setLoading(true);
     const res = await queryMenuData({ user: "admin" }).finally(() => {
-      setLoading(false);
+      // setLoading(false);
     });
     withMenuList(res.data);
   };

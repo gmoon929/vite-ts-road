@@ -6,7 +6,7 @@ interface BulletProps {
   direction: 'up' | 'down' | 'left' | 'right';
 }
 
-const Bullet: React.FC<BulletProps> = ({ x, y, direction }) => {
+const Bullet: React.FC<BulletProps> = ({ x, y }) => {
   const bulletRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {

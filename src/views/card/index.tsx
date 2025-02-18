@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 // 棋盘大小
 const BOARD_SIZE = 15;
