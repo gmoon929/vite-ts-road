@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'HarmonyOS Sans SC';
+    src: url('../assets/fonts/HarmonyOS_SansSC_Black.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'HarmonyOS Sans SC-Medium';
+    src: url('../assets/fonts/HarmonyOS_SansSC_Medium.ttf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
